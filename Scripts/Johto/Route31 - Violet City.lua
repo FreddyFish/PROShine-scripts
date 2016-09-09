@@ -2,7 +2,7 @@ name = "Leveling: Route 31 (Near Violet City)"
 author = "FreddyFish - Thanks to Silv3r for the template"
 description = [[This script will train the first pokémon of your team.
 It will also try to capture shinies by throwing pokéballs.
-Start anywhere between Pewter City and Route 2.]]
+Start anywhere between Violet City and route 31.]]
 
 function onPathAction()
 	if isPokemonUsable(1) then
