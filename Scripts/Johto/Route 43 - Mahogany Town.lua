@@ -4,10 +4,10 @@
 -- as published by Sam Hocevar. See the LICENSE file for more details.
 
 name = "Leveling: Route 43 (Near Mahogany Town)"
-author = "FreddyFish - Thanks to Silv3r for the template"
+author = "FreddyFish"
 description = [[This script will train the first pokémon of your team.
 It will also try to capture shinies by throwing pokéballs.
-Start anywhere between Mahogany Town and Route 43.]]
+Start anywhere between Mahogany Town and Route 43. Thanks to Silv3r for the template.]]
 
 function onPathAction()
 	if isPokemonUsable(1) then
