@@ -16,7 +16,7 @@ function onPathAction()
 		elseif getMapName() == "Mahogany Town" then
 			moveToMap("Route 43")
 		elseif getMapName() == "Route 43" then
-			moveToGrass()
+			moveToRectangle(20, 58, 22, 58)
 		end
 	else
 		if getMapName() == "Route 43" then
